@@ -1,70 +1,59 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📝 Task Manager React
+Propósito do Projeto
 
-## Available Scripts
+O Task Manager React é uma aplicação web que permite aos usuários gerenciar suas tarefas de forma simples e organizada. O objetivo principal é fornecer uma interface intuitiva para adicionar, visualizar, editar e excluir tarefas, garantindo que o usuário tenha controle total sobre suas atividades diárias.
 
-In the project directory, you can run:
+Este projeto também serve como exercício prático em React, abordando conceitos importantes como:
 
-### `npm start`
+React Router: para navegação entre múltiplas páginas da aplicação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Context API: para gerenciamento global do estado das tarefas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Componentização: criação de componentes reutilizáveis e de fácil manutenção.
 
-### `npm test`
+Interatividade: manipulação de eventos e atualização dinâmica da interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A aplicação pode ser utilizada tanto para organização pessoal quanto como base para projetos mais complexos, integrando autenticação de usuários, persistência de dados e outros recursos.
 
-### `npm run build`
+Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Criar novas tarefas com título e descrição.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Visualizar a lista completa de tarefas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Editar tarefas existentes.
 
-### `npm run eject`
+Excluir tarefas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Navegar entre páginas de forma rápida e fluida.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tecnologias Utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React Router DOM
 
-## Learn More
+Context API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+CSS (ou biblioteca de estilos à escolha)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Como Rodar o Projeto
 
-### Code Splitting
+Clone o repositório:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instale as dependências:
 
-### Making a Progressive Web App
+cd NOME_DO_REPOSITORIO
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Execute a aplicação:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A aplicação será aberta automaticamente no navegador, geralmente em http://localhost:3000.
